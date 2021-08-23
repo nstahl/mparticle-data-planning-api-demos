@@ -51,12 +51,12 @@ module.exports = {
     {
       resolve: "@mparticle/gatsby-plugin-mparticle",
       options: {
-        apiKey: "us1-ef34f111c1996b4f91636c4a4a271aba",
-        logPageViews: true,
+        apiKey: "us1-8b50167069a7f44fb2e7922c07b8ed0b",
+        logPageViews: false,
         config: {
           isDevelopmentMode: true,
           dataPlan: {
-            planId: 'sofa_king_main',
+            planId: 'sample_ecommerce',
             planVersion: 1
           }
         },
